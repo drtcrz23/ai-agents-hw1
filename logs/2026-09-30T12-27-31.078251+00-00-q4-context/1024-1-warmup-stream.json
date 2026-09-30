@@ -1,0 +1,293 @@
+[
+  {
+    "elapsed_s": 0.005278875003568828,
+    "event": {
+      "type": "chat.start",
+      "model_instance_id": "hw1-q4"
+    }
+  },
+  {
+    "elapsed_s": 0.009891458001220599,
+    "event": {
+      "type": "prompt_processing.start"
+    }
+  },
+  {
+    "elapsed_s": 0.00989983300678432,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0
+    }
+  },
+  {
+    "elapsed_s": 0.013668458006577566,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.8260869565217391
+    }
+  },
+  {
+    "elapsed_s": 0.20516574999783188,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 1
+    }
+  },
+  {
+    "elapsed_s": 0.20517808299337048,
+    "event": {
+      "type": "prompt_processing.end"
+    }
+  },
+  {
+    "elapsed_s": 0.20592529099667445,
+    "event": {
+      "type": "message.start"
+    }
+  },
+  {
+    "elapsed_s": 0.2059375410026405,
+    "event": {
+      "type": "message.delta",
+      "content": "A"
+    }
+  },
+  {
+    "elapsed_s": 0.23727966600563377,
+    "event": {
+      "type": "message.delta",
+      "content": " bright"
+    }
+  },
+  {
+    "elapsed_s": 0.25991841600625776,
+    "event": {
+      "type": "message.delta",
+      "content": " red"
+    }
+  },
+  {
+    "elapsed_s": 0.28630245800013654,
+    "event": {
+      "type": "message.delta",
+      "content": " balloon"
+    }
+  },
+  {
+    "elapsed_s": 0.3122387909970712,
+    "event": {
+      "type": "message.delta",
+      "content": " floats"
+    }
+  },
+  {
+    "elapsed_s": 0.3474019999994198,
+    "event": {
+      "type": "message.delta",
+      "content": " so"
+    }
+  },
+  {
+    "elapsed_s": 0.3652551660052268,
+    "event": {
+      "type": "message.delta",
+      "content": " high"
+    }
+  },
+  {
+    "elapsed_s": 0.39096849999623373,
+    "event": {
+      "type": "message.delta",
+      "content": ","
+    }
+  },
+  {
+    "elapsed_s": 0.416824790998362,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 0.4432358329941053,
+    "event": {
+      "type": "message.delta",
+      "content": "With"
+    }
+  },
+  {
+    "elapsed_s": 0.47560437499487307,
+    "event": {
+      "type": "message.delta",
+      "content": " happy"
+    }
+  },
+  {
+    "elapsed_s": 0.49337766600365285,
+    "event": {
+      "type": "message.delta",
+      "content": " clouds"
+    }
+  },
+  {
+    "elapsed_s": 0.5193704580015037,
+    "event": {
+      "type": "message.delta",
+      "content": " drifting"
+    }
+  },
+  {
+    "elapsed_s": 0.5451590830052737,
+    "event": {
+      "type": "message.delta",
+      "content": " by"
+    }
+  },
+  {
+    "elapsed_s": 0.5707426659937482,
+    "event": {
+      "type": "message.delta",
+      "content": "."
+    }
+  },
+  {
+    "elapsed_s": 0.5969290000066394,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 0.6213372909987811,
+    "event": {
+      "type": "message.delta",
+      "content": "It"
+    }
+  },
+  {
+    "elapsed_s": 0.6472542499977862,
+    "event": {
+      "type": "message.delta",
+      "content": " dances"
+    }
+  },
+  {
+    "elapsed_s": 0.6733652080001775,
+    "event": {
+      "type": "message.delta",
+      "content": " in"
+    }
+  },
+  {
+    "elapsed_s": 0.710548375005601,
+    "event": {
+      "type": "message.delta",
+      "content": " the"
+    }
+  },
+  {
+    "elapsed_s": 0.7247418750048382,
+    "event": {
+      "type": "message.delta",
+      "content": " gentle"
+    }
+  },
+  {
+    "elapsed_s": 0.7505185829941183,
+    "event": {
+      "type": "message.delta",
+      "content": " breeze"
+    }
+  },
+  {
+    "elapsed_s": 0.7768353749997914,
+    "event": {
+      "type": "message.delta",
+      "content": ","
+    }
+  },
+  {
+    "elapsed_s": 0.8044271660037339,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 0.8315787909959909,
+    "event": {
+      "type": "message.delta",
+      "content": "Br"
+    }
+  },
+  {
+    "elapsed_s": 0.8557712909969268,
+    "event": {
+      "type": "message.delta",
+      "content": "inging"
+    }
+  },
+  {
+    "elapsed_s": 0.8824926249944838,
+    "event": {
+      "type": "message.delta",
+      "content": " sunshine"
+    }
+  },
+  {
+    "elapsed_s": 0.9084195409959648,
+    "event": {
+      "type": "message.delta",
+      "content": " to"
+    }
+  },
+  {
+    "elapsed_s": 0.9341065000044182,
+    "event": {
+      "type": "message.delta",
+      "content": " the"
+    }
+  },
+  {
+    "elapsed_s": 0.9594194160017651,
+    "event": {
+      "type": "message.delta",
+      "content": " trees"
+    }
+  },
+  {
+    "elapsed_s": 0.9847810829960508,
+    "event": {
+      "type": "message.delta",
+      "content": "."
+    }
+  },
+  {
+    "elapsed_s": 1.0122847909951815,
+    "event": {
+      "type": "message.end"
+    }
+  },
+  {
+    "elapsed_s": 1.0123031660041306,
+    "event": {
+      "type": "chat.end",
+      "result": {
+        "model_instance_id": "hw1-q4",
+        "output": [
+          {
+            "type": "message",
+            "content": "A bright red balloon floats so high,\nWith happy clouds drifting by.\nIt dances in the gentle breeze,\nBringing sunshine to the trees."
+          }
+        ],
+        "stats": {
+          "input_tokens": 23,
+          "total_output_tokens": 32,
+          "reasoning_output_tokens": 0,
+          "tokens_per_second": 38.5215192390136,
+          "time_to_first_token_seconds": 0.19692099999999998
+        }
+      }
+    }
+  }
+]

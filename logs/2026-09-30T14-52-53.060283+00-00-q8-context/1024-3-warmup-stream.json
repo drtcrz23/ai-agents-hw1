@@ -1,0 +1,328 @@
+[
+  {
+    "elapsed_s": 0.003376375010702759,
+    "event": {
+      "type": "chat.start",
+      "model_instance_id": "hw1-q8"
+    }
+  },
+  {
+    "elapsed_s": 0.007320000004256144,
+    "event": {
+      "type": "prompt_processing.start"
+    }
+  },
+  {
+    "elapsed_s": 0.007327792001888156,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0
+    }
+  },
+  {
+    "elapsed_s": 0.011432208004407585,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.8260869565217391
+    }
+  },
+  {
+    "elapsed_s": 0.1887357920059003,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 1
+    }
+  },
+  {
+    "elapsed_s": 0.1887451670045266,
+    "event": {
+      "type": "prompt_processing.end"
+    }
+  },
+  {
+    "elapsed_s": 0.191705750010442,
+    "event": {
+      "type": "message.start"
+    }
+  },
+  {
+    "elapsed_s": 0.1917124580068048,
+    "event": {
+      "type": "message.delta",
+      "content": "A"
+    }
+  },
+  {
+    "elapsed_s": 0.24104729200189468,
+    "event": {
+      "type": "message.delta",
+      "content": " bright"
+    }
+  },
+  {
+    "elapsed_s": 0.2846506250061793,
+    "event": {
+      "type": "message.delta",
+      "content": " red"
+    }
+  },
+  {
+    "elapsed_s": 0.32947608300310094,
+    "event": {
+      "type": "message.delta",
+      "content": " balloon"
+    }
+  },
+  {
+    "elapsed_s": 0.3795618750009453,
+    "event": {
+      "type": "message.delta",
+      "content": " floats"
+    }
+  },
+  {
+    "elapsed_s": 0.42211912501079496,
+    "event": {
+      "type": "message.delta",
+      "content": " so"
+    }
+  },
+  {
+    "elapsed_s": 0.46280370801105164,
+    "event": {
+      "type": "message.delta",
+      "content": " high"
+    }
+  },
+  {
+    "elapsed_s": 0.5033551670057932,
+    "event": {
+      "type": "message.delta",
+      "content": ","
+    }
+  },
+  {
+    "elapsed_s": 0.5415472080057953,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 0.5808052080101334,
+    "event": {
+      "type": "message.delta",
+      "content": "Touch"
+    }
+  },
+  {
+    "elapsed_s": 0.6205000000045402,
+    "event": {
+      "type": "message.delta",
+      "content": "ing"
+    }
+  },
+  {
+    "elapsed_s": 0.6599898750137072,
+    "event": {
+      "type": "message.delta",
+      "content": " clouds"
+    }
+  },
+  {
+    "elapsed_s": 0.6995824170007836,
+    "event": {
+      "type": "message.delta",
+      "content": " beneath"
+    }
+  },
+  {
+    "elapsed_s": 0.7396795830136398,
+    "event": {
+      "type": "message.delta",
+      "content": " the"
+    }
+  },
+  {
+    "elapsed_s": 0.7800085830094758,
+    "event": {
+      "type": "message.delta",
+      "content": " blue"
+    }
+  },
+  {
+    "elapsed_s": 0.8201445000013337,
+    "event": {
+      "type": "message.delta",
+      "content": " sky"
+    }
+  },
+  {
+    "elapsed_s": 0.8613126250129426,
+    "event": {
+      "type": "message.delta",
+      "content": "."
+    }
+  },
+  {
+    "elapsed_s": 0.9025301670044428,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 0.9430015830002958,
+    "event": {
+      "type": "message.delta",
+      "content": "It"
+    }
+  },
+  {
+    "elapsed_s": 0.9836547500017332,
+    "event": {
+      "type": "message.delta",
+      "content": " gigg"
+    }
+  },
+  {
+    "elapsed_s": 1.0244740420021117,
+    "event": {
+      "type": "message.delta",
+      "content": "les"
+    }
+  },
+  {
+    "elapsed_s": 1.0642528750031488,
+    "event": {
+      "type": "message.delta",
+      "content": " as"
+    }
+  },
+  {
+    "elapsed_s": 1.1029955420090118,
+    "event": {
+      "type": "message.delta",
+      "content": " it"
+    }
+  },
+  {
+    "elapsed_s": 1.1417243750038324,
+    "event": {
+      "type": "message.delta",
+      "content": " drift"
+    }
+  },
+  {
+    "elapsed_s": 1.1808885000064038,
+    "event": {
+      "type": "message.delta",
+      "content": "s"
+    }
+  },
+  {
+    "elapsed_s": 1.2196614580025198,
+    "event": {
+      "type": "message.delta",
+      "content": " away"
+    }
+  },
+  {
+    "elapsed_s": 1.258832458013785,
+    "event": {
+      "type": "message.delta",
+      "content": ","
+    }
+  },
+  {
+    "elapsed_s": 1.297972958011087,
+    "event": {
+      "type": "message.delta",
+      "content": "\n"
+    }
+  },
+  {
+    "elapsed_s": 1.3362375830038218,
+    "event": {
+      "type": "message.delta",
+      "content": "Br"
+    }
+  },
+  {
+    "elapsed_s": 1.3757809580129106,
+    "event": {
+      "type": "message.delta",
+      "content": "inging"
+    }
+  },
+  {
+    "elapsed_s": 1.414260750010726,
+    "event": {
+      "type": "message.delta",
+      "content": " sunshine"
+    }
+  },
+  {
+    "elapsed_s": 1.4591620420105755,
+    "event": {
+      "type": "message.delta",
+      "content": " on"
+    }
+  },
+  {
+    "elapsed_s": 1.492081958000199,
+    "event": {
+      "type": "message.delta",
+      "content": " a"
+    }
+  },
+  {
+    "elapsed_s": 1.5312755830091191,
+    "event": {
+      "type": "message.delta",
+      "content": " sunny"
+    }
+  },
+  {
+    "elapsed_s": 1.5806848330103094,
+    "event": {
+      "type": "message.delta",
+      "content": " day"
+    }
+  },
+  {
+    "elapsed_s": 1.6097115420125192,
+    "event": {
+      "type": "message.delta",
+      "content": "."
+    }
+  },
+  {
+    "elapsed_s": 1.6511614170012763,
+    "event": {
+      "type": "message.end"
+    }
+  },
+  {
+    "elapsed_s": 1.6511843750049593,
+    "event": {
+      "type": "chat.end",
+      "result": {
+        "model_instance_id": "hw1-q8",
+        "output": [
+          {
+            "type": "message",
+            "content": "A bright red balloon floats so high,\nTouching clouds beneath the blue sky.\nIt giggles as it drifts away,\nBringing sunshine on a sunny day."
+          }
+        ],
+        "stats": {
+          "input_tokens": 23,
+          "total_output_tokens": 37,
+          "reasoning_output_tokens": 0,
+          "tokens_per_second": 24.697405331758187,
+          "time_to_first_token_seconds": 0.184976
+        }
+      }
+    }
+  }
+]

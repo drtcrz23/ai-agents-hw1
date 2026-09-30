@@ -1,0 +1,155 @@
+[
+  {
+    "elapsed_s": 0.0069481669925153255,
+    "event": {
+      "type": "chat.start",
+      "model_instance_id": "hw1-q4"
+    }
+  },
+  {
+    "elapsed_s": 0.09069562499644235,
+    "event": {
+      "type": "prompt_processing.start"
+    }
+  },
+  {
+    "elapsed_s": 0.09071120899170637,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0
+    }
+  },
+  {
+    "elapsed_s": 3.7199652919953223,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.031249046354786536
+    }
+  },
+  {
+    "elapsed_s": 8.587593959004153,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.06249809270957307
+    }
+  },
+  {
+    "elapsed_s": 13.669597749991226,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.09374713906435961
+    }
+  },
+  {
+    "elapsed_s": 18.788819708992378,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.12499618541914614
+    }
+  },
+  {
+    "elapsed_s": 24.036552249992383,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.15624523177393268
+    }
+  },
+  {
+    "elapsed_s": 29.338151292002294,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.18749427812871922
+    }
+  },
+  {
+    "elapsed_s": 34.7398359170038,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.21874332448350575
+    }
+  },
+  {
+    "elapsed_s": 40.427885583994794,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.2499923708382923
+    }
+  },
+  {
+    "elapsed_s": 46.32973070899607,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.2812414171930788
+    }
+  },
+  {
+    "elapsed_s": 52.46022483399429,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.31249046354786536
+    }
+  },
+  {
+    "elapsed_s": 59.07498229200428,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.3437395099026519
+    }
+  },
+  {
+    "elapsed_s": 65.80747512499511,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.37498855625743843
+    }
+  },
+  {
+    "elapsed_s": 72.60084924999683,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.40623760261222497
+    }
+  },
+  {
+    "elapsed_s": 79.3092885419901,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.4374866489670115
+    }
+  },
+  {
+    "elapsed_s": 86.64774695900269,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.46873569532179804
+    }
+  },
+  {
+    "elapsed_s": 93.73657758400077,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.4999847416765846
+    }
+  },
+  {
+    "elapsed_s": 101.25802633399144,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.5312337880313711
+    }
+  },
+  {
+    "elapsed_s": 108.616168499997,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.5624828343861576
+    }
+  },
+  {
+    "elapsed_s": 116.86309687499306,
+    "event": {
+      "type": "prompt_processing.progress",
+      "progress": 0.5937318807409442
+    }
+  }
+]

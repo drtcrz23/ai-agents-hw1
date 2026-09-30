@@ -1,0 +1,7 @@
+{
+  "target_tokens": 65536,
+  "sha256": "ba8dbf517d88630d49f342914bed911ccf71b0f5d780e6ac3423858e0b2ebaf6",
+  "template_tokens_at_creation": 65536,
+  "plain_text_tokens": 65526,
+  "source_sha256": "20d8a728b2d6bb3de5e794f36f6ddee5f5b1d048e201b9b7d49bb3b5cfed49ef"
+}

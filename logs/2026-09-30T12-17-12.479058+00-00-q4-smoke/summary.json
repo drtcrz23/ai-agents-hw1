@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-09-30T12-17-12.479058+00-00-q4-smoke",
+  "model": "q4",
+  "mode": "smoke",
+  "status": "complete",
+  "stop_reason": "All selected lengths tested; this is not a hardware limit",
+  "repeats_required": 1,
+  "groups": [
+    {
+      "target_tokens": 128,
+      "attempted": 1,
+      "successful": 1,
+      "stable": true,
+      "input_tokens_median": 130,
+      "ttft_s_median": 0.41213204100495204,
+      "tokens_per_second_median": 38.23712173739884,
+      "latency_s_median": 7.083931500004837,
+      "rss_before_bytes_median": 7321927680,
+      "rss_peak_bytes_median": 7446315008,
+      "rss_after_bytes_median": 7441645568,
+      "output_tokens_median": 256,
+      "rss_peak_bytes_max": 7446315008
+    }
+  ],
+  "max_stable_target_tokens": 128
+}

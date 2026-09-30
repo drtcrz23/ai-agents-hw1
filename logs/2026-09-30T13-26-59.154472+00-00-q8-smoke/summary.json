@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-09-30T13-26-59.154472+00-00-q8-smoke",
+  "model": "q8",
+  "mode": "smoke",
+  "status": "complete",
+  "stop_reason": "All selected lengths tested; this is not a hardware limit",
+  "repeats_required": 1,
+  "groups": [
+    {
+      "target_tokens": 128,
+      "attempted": 1,
+      "successful": 1,
+      "stable": true,
+      "input_tokens_median": 130,
+      "ttft_s_median": 0.39105570799438283,
+      "tokens_per_second_median": 23.544458493150962,
+      "latency_s_median": 11.223669416998746,
+      "rss_before_bytes_median": 11219861504,
+      "rss_peak_bytes_median": 11347034112,
+      "rss_after_bytes_median": 11347034112,
+      "output_tokens_median": 256,
+      "rss_peak_bytes_max": 11347034112
+    }
+  ],
+  "max_stable_target_tokens": 128
+}

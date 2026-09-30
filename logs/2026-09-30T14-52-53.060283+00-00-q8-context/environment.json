@@ -1,0 +1,17 @@
+{
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "chip": "Apple M4 Pro",
+  "ram_bytes": "51539607552",
+  "power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=22413411)\t100%; charged; 0:00 remaining present: true",
+  "thermal": "Note: No thermal warning level has been recorded\nNote: No performance warning level has been recorded\nNote: No CPU power status has been recorded",
+  "lms_version": "CLI commit: 1017bcb",
+  "runtimes": "LLM ENGINE                                            SELECTED    MODEL FORMAT\nexecutorch-asr-mac-arm64-apple-metal-advsimd@0.0.8       ✓            PTE     \nllama.cpp-mac-arm64-apple-metal-advsimd@2.46.0                        GGUF    \nllama.cpp-mac-arm64-apple-metal-advsimd@2.43.0           ✓            GGUF    \nmlx-llm-mac-arm64-apple-metal-advsimd@1.11.0             ✓            MLX",
+  "script_hashes": {
+    "benchmark.py": "267763166c22068c412dd1dc046cde5a430a853df9158346eedd7b4e0830f68f",
+    "common.py": "c18839d736be6f2be5268354fc46b7b235c71d3c19f89d48d81fc90220f4c09e",
+    "lifecycle.py": "26b49cc89c3b56669652d31437e1872d45fa8aa3990d0e89b77253b6ba2f9cbc",
+    "audit_runtime.py": "350ad62ebfeb5b09880fb778d2ed39207bc2cdd6e6ebda45207640c16780673e",
+    "report.py": "1281fff9c340ad805703afe76802058a17b4d435af5f6fbb9fc19f6a8ce1709f"
+  }
+}

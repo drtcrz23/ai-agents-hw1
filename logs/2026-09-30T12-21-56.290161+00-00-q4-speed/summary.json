@@ -1,0 +1,56 @@
+{
+  "run_id": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+  "model": "q4",
+  "mode": "speed",
+  "status": "complete",
+  "stop_reason": "All selected lengths tested; this is not a hardware limit",
+  "repeats_required": 3,
+  "groups": [
+    {
+      "target_tokens": 128,
+      "attempted": 3,
+      "successful": 3,
+      "stable": true,
+      "input_tokens_median": 130,
+      "ttft_s_median": 0.41555195800901856,
+      "tokens_per_second_median": 38.28957610586302,
+      "latency_s_median": 7.070531791992835,
+      "rss_before_bytes_median": 7412121600,
+      "rss_peak_bytes_median": 7524745216,
+      "rss_after_bytes_median": 7524663296,
+      "output_tokens_median": 256,
+      "rss_peak_bytes_max": 7524843520
+    },
+    {
+      "target_tokens": 1024,
+      "attempted": 3,
+      "successful": 3,
+      "stable": true,
+      "input_tokens_median": 1026,
+      "ttft_s_median": 2.585381958997459,
+      "tokens_per_second_median": 36.92900160489096,
+      "latency_s_median": 9.492739000008442,
+      "rss_before_bytes_median": 7411974144,
+      "rss_peak_bytes_median": 7591624704,
+      "rss_after_bytes_median": 7591624704,
+      "output_tokens_median": 256,
+      "rss_peak_bytes_max": 7600652288
+    },
+    {
+      "target_tokens": 4096,
+      "attempted": 3,
+      "successful": 3,
+      "stable": true,
+      "input_tokens_median": 4098,
+      "ttft_s_median": 10.066386624996085,
+      "tokens_per_second_median": 37.409688610554284,
+      "latency_s_median": 16.86703020799905,
+      "rss_before_bytes_median": 7417757696,
+      "rss_peak_bytes_median": 7605436416,
+      "rss_after_bytes_median": 7605436416,
+      "output_tokens_median": 256,
+      "rss_peak_bytes_max": 7605649408
+    }
+  ],
+  "max_stable_target_tokens": 4096
+}

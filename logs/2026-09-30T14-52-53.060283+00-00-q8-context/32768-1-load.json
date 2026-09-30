@@ -1,0 +1,40 @@
+{
+  "ps": [
+    {
+      "type": "llm",
+      "modelKey": "qwen/qwen3.5-9b@q8_0",
+      "format": "gguf",
+      "displayName": "Qwen3.5 9B",
+      "publisher": "qwen",
+      "path": "qwen/qwen3.5-9b",
+      "sizeBytes": 10449384671,
+      "indexedModelIdentifier": "qwen/qwen3.5-9b@lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q8_0.gguf",
+      "deviceIdentifier": null,
+      "paramsString": "9B",
+      "architecture": "qwen35",
+      "quantization": {
+        "name": "Q8_0",
+        "bits": 8
+      },
+      "identifier": "hw1-q8",
+      "ttlMs": null,
+      "lastUsedTime": 1790780428950,
+      "vision": true,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 33280,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1
+    }
+  ],
+  "load_config": {
+    "gpu": {
+      "ratio": 1.0,
+      "splitStrategy": "evenly",
+      "disabledGpus": []
+    },
+    "contextLength": 33280,
+    "flashAttention": true
+  }
+}

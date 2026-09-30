@@ -1,0 +1,488 @@
+[
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 128,
+    "repeat": 1,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:22:08][DEBUG] 0.11.456.982 I slot print_timing: id  0 | task 34 | prompt eval time =     402.02 ms /   130 tokens (    3.09 ms per token,   323.37 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 128,
+    "repeat": 2,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:22:18][DEBUG] 0.09.863.600 I slot print_timing: id  0 | task 34 | prompt eval time =     397.86 ms /   130 tokens (    3.06 ms per token,   326.75 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 128,
+    "repeat": 3,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:22:29][DEBUG] 0.09.878.674 I slot print_timing: id  0 | task 34 | prompt eval time =     406.23 ms /   130 tokens (    3.12 ms per token,   320.02 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 1024,
+    "repeat": 1,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:22:42][DEBUG] 0.12.236.716 I slot print_timing: id  0 | task 34 | prompt eval time =    2519.91 ms /  1026 tokens (    2.46 ms per token,   407.16 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 1024,
+    "repeat": 2,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:22:55][DEBUG] 0.12.361.985 I slot print_timing: id  0 | task 34 | prompt eval time =    2584.47 ms /  1026 tokens (    2.52 ms per token,   396.99 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 1024,
+    "repeat": 3,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:23:08][DEBUG] 0.12.336.040 I slot print_timing: id  0 | task 34 | prompt eval time =    2571.89 ms /  1026 tokens (    2.51 ms per token,   398.93 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 4096,
+    "repeat": 1,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:23:29][DEBUG] 0.19.624.926 I slot print_timing: id  0 | task 34 | prompt eval time =   10048.45 ms /  4098 tokens (    2.45 ms per token,   407.82 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 4096,
+    "repeat": 2,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:23:49][DEBUG] 0.19.396.038 I slot print_timing: id  0 | task 34 | prompt eval time =    9789.04 ms /  4098 tokens (    2.39 ms per token,   418.63 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-21-56.290161+00-00-q4-speed",
+    "target": 4096,
+    "repeat": 3,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:24:10][DEBUG] 0.20.273.056 I slot print_timing: id  0 | task 34 | prompt eval time =   10357.79 ms /  4098 tokens (    2.53 ms per token,   395.64 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 1024,
+    "repeat": 1,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:27:43][DEBUG] 0.11.984.493 I slot print_timing: id  0 | task 34 | prompt eval time =    2483.11 ms /  1026 tokens (    2.42 ms per token,   413.19 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 1024,
+    "repeat": 2,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:27:56][DEBUG] 0.12.124.118 I slot print_timing: id  0 | task 34 | prompt eval time =    2529.13 ms /  1026 tokens (    2.47 ms per token,   405.67 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 1024,
+    "repeat": 3,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:28:09][DEBUG] 0.11.985.732 I slot print_timing: id  0 | task 34 | prompt eval time =    2503.31 ms /  1026 tokens (    2.44 ms per token,   409.86 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 2048,
+    "repeat": 1,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:28:24][DEBUG] 0.14.515.192 I slot print_timing: id  0 | task 34 | prompt eval time =    5015.17 ms /  2050 tokens (    2.45 ms per token,   408.76 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 2048,
+    "repeat": 2,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:28:40][DEBUG] 0.15.017.266 I slot print_timing: id  0 | task 34 | prompt eval time =    5026.55 ms /  2050 tokens (    2.45 ms per token,   407.83 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 2048,
+    "repeat": 3,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:28:56][DEBUG] 0.14.707.304 I slot print_timing: id  0 | task 34 | prompt eval time =    5030.65 ms /  2050 tokens (    2.45 ms per token,   407.50 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 4096,
+    "repeat": 1,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:29:16][DEBUG] 0.19.684.165 I slot print_timing: id  0 | task 34 | prompt eval time =    9974.30 ms /  4098 tokens (    2.43 ms per token,   410.86 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 4096,
+    "repeat": 2,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:29:36][DEBUG] 0.19.560.395 I slot print_timing: id  0 | task 34 | prompt eval time =    9829.24 ms /  4098 tokens (    2.40 ms per token,   416.92 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 4096,
+    "repeat": 3,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:29:56][DEBUG] 0.19.334.048 I slot print_timing: id  0 | task 34 | prompt eval time =    9742.87 ms /  4098 tokens (    2.38 ms per token,   420.62 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 8192,
+    "repeat": 1,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:30:27][DEBUG] 0.29.829.005 I slot print_timing: id  0 | task 34 | prompt eval time =   19868.93 ms /  8194 tokens (    2.42 ms per token,   412.40 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 8192,
+    "repeat": 2,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:30:59][DEBUG] 0.30.664.416 I slot print_timing: id  0 | task 34 | prompt eval time =   20704.88 ms /  8194 tokens (    2.53 ms per token,   395.75 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 8192,
+    "repeat": 3,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:31:30][DEBUG] 0.30.498.044 I slot print_timing: id  0 | task 34 | prompt eval time =   20185.56 ms /  8194 tokens (    2.46 ms per token,   405.93 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 16384,
+    "repeat": 1,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:32:23][DEBUG] 0.52.604.599 I slot print_timing: id  0 | task 34 | prompt eval time =   42147.99 ms / 16386 tokens (    2.57 ms per token,   388.77 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 16384,
+    "repeat": 2,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:33:17][DEBUG] 0.52.604.345 I slot print_timing: id  0 | task 34 | prompt eval time =   42263.52 ms / 16386 tokens (    2.58 ms per token,   387.71 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 16384,
+    "repeat": 3,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:34:10][DEBUG] 0.52.578.959 I slot print_timing: id  0 | task 34 | prompt eval time =   42411.80 ms / 16386 tokens (    2.59 ms per token,   386.35 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 32768,
+    "repeat": 1,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:35:53][DEBUG] 1.41.919.208 I slot print_timing: id  0 | task 34 | prompt eval time =   90754.22 ms / 32770 tokens (    2.77 ms per token,   361.09 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 32768,
+    "repeat": 2,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:37:38][DEBUG] 1.44.497.270 I slot print_timing: id  0 | task 34 | prompt eval time =   93398.02 ms / 32770 tokens (    2.85 ms per token,   350.86 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T12-27-31.078251+00-00-q4-context",
+    "target": 32768,
+    "repeat": 3,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 15:39:24][DEBUG] 1.44.939.752 I slot print_timing: id  0 | task 34 | prompt eval time =   93588.67 ms / 32770 tokens (    2.86 ms per token,   350.15 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 128,
+    "repeat": 1,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:28:36][DEBUG] 0.14.221.033 I slot print_timing: id  0 | task 39 | prompt eval time =     387.64 ms /   130 tokens (    2.98 ms per token,   335.37 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 128,
+    "repeat": 2,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:28:51][DEBUG] 0.14.469.328 I slot print_timing: id  0 | task 39 | prompt eval time =     398.39 ms /   130 tokens (    3.06 ms per token,   326.31 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 128,
+    "repeat": 3,
+    "input_tokens": 130,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:29:06][DEBUG] 0.13.857.340 I slot print_timing: id  0 | task 39 | prompt eval time =     374.89 ms /   130 tokens (    2.88 ms per token,   346.76 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 1024,
+    "repeat": 1,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:29:24][DEBUG] 0.16.484.283 I slot print_timing: id  0 | task 39 | prompt eval time =    2448.87 ms /  1026 tokens (    2.39 ms per token,   418.97 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 1024,
+    "repeat": 2,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:29:41][DEBUG] 0.15.564.314 I slot print_timing: id  0 | task 39 | prompt eval time =    2335.46 ms /  1026 tokens (    2.28 ms per token,   439.31 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 1024,
+    "repeat": 3,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:29:57][DEBUG] 0.15.561.355 I slot print_timing: id  0 | task 39 | prompt eval time =    2332.76 ms /  1026 tokens (    2.27 ms per token,   439.82 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 4096,
+    "repeat": 1,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:30:20][DEBUG] 0.22.682.026 I slot print_timing: id  0 | task 39 | prompt eval time =    9248.28 ms /  4098 tokens (    2.26 ms per token,   443.11 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 4096,
+    "repeat": 2,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:30:44][DEBUG] 0.22.944.014 I slot print_timing: id  0 | task 39 | prompt eval time =    9250.37 ms /  4098 tokens (    2.26 ms per token,   443.01 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T13-28-21.483350+00-00-q8-speed",
+    "target": 4096,
+    "repeat": 3,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 16:31:08][DEBUG] 0.22.936.619 I slot print_timing: id  0 | task 39 | prompt eval time =    9310.07 ms /  4098 tokens (    2.27 ms per token,   440.17 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 1024,
+    "repeat": 1,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:53:13][DEBUG] 0.19.638.708 I slot print_timing: id  0 | task 39 | prompt eval time =    2379.18 ms /  1026 tokens (    2.32 ms per token,   431.24 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 1024,
+    "repeat": 2,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:53:30][DEBUG] 0.15.913.531 I slot print_timing: id  0 | task 39 | prompt eval time =    2385.22 ms /  1026 tokens (    2.32 ms per token,   430.15 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 1024,
+    "repeat": 3,
+    "input_tokens": 1026,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:53:47][DEBUG] 0.16.220.484 I slot print_timing: id  0 | task 39 | prompt eval time =    2362.22 ms /  1026 tokens (    2.30 ms per token,   434.34 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 2048,
+    "repeat": 1,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:54:07][DEBUG] 0.18.561.757 I slot print_timing: id  0 | task 39 | prompt eval time =    4803.07 ms /  2050 tokens (    2.34 ms per token,   426.81 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 2048,
+    "repeat": 2,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:54:26][DEBUG] 0.18.715.897 I slot print_timing: id  0 | task 39 | prompt eval time =    4680.24 ms /  2050 tokens (    2.28 ms per token,   438.01 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 2048,
+    "repeat": 3,
+    "input_tokens": 2050,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:54:46][DEBUG] 0.18.856.921 I slot print_timing: id  0 | task 39 | prompt eval time =    4756.92 ms /  2050 tokens (    2.32 ms per token,   430.95 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 4096,
+    "repeat": 1,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:55:10][DEBUG] 0.23.738.147 I slot print_timing: id  0 | task 39 | prompt eval time =    9769.39 ms /  4098 tokens (    2.38 ms per token,   419.47 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 4096,
+    "repeat": 2,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:55:34][DEBUG] 0.23.149.041 I slot print_timing: id  0 | task 39 | prompt eval time =    9347.00 ms /  4098 tokens (    2.28 ms per token,   438.43 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 4096,
+    "repeat": 3,
+    "input_tokens": 4098,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:55:58][DEBUG] I slot print_timing: id  0 | task 39 | prompt eval time =    9529.53 ms /  4098 tokens (    2.33 ms per token,   430.03 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 8192,
+    "repeat": 1,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:56:32][DEBUG] 0.32.775.920 I slot print_timing: id  0 | task 39 | prompt eval time =   18895.36 ms /  8194 tokens (    2.31 ms per token,   433.65 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 8192,
+    "repeat": 2,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:57:06][DEBUG] 0.32.910.044 I slot print_timing: id  0 | task 39 | prompt eval time =   19092.81 ms /  8194 tokens (    2.33 ms per token,   429.17 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 8192,
+    "repeat": 3,
+    "input_tokens": 8194,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:57:40][DEBUG] 0.32.692.188 I slot print_timing: id  0 | task 39 | prompt eval time =   18947.73 ms /  8194 tokens (    2.31 ms per token,   432.45 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 16384,
+    "repeat": 1,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:58:35][DEBUG] 0.54.341.381 I slot print_timing: id  0 | task 39 | prompt eval time =   39866.19 ms / 16386 tokens (    2.43 ms per token,   411.02 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 16384,
+    "repeat": 2,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 17:59:30][DEBUG] 0.54.324.316 I slot print_timing: id  0 | task 39 | prompt eval time =   40058.97 ms / 16386 tokens (    2.44 ms per token,   409.05 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 16384,
+    "repeat": 3,
+    "input_tokens": 16386,
+    "matching_runtime_lines": [
+      "[2026-09-30 18:00:26][DEBUG] 0.54.164.970 I slot print_timing: id  0 | task 39 | prompt eval time =   39377.15 ms / 16386 tokens (    2.40 ms per token,   416.13 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 32768,
+    "repeat": 1,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 18:02:12][DEBUG] 1.45.488.206 I slot print_timing: id  0 | task 39 | prompt eval time =   90099.64 ms / 32770 tokens (    2.75 ms per token,   363.71 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 32768,
+    "repeat": 2,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 18:03:58][DEBUG] 1.44.761.917 I slot print_timing: id  0 | task 39 | prompt eval time =   89370.60 ms / 32770 tokens (    2.73 ms per token,   366.68 tokens per second)"
+    ]
+  },
+  {
+    "run": "2026-09-30T14-52-53.060283+00-00-q8-context",
+    "target": 32768,
+    "repeat": 3,
+    "input_tokens": 32770,
+    "matching_runtime_lines": [
+      "[2026-09-30 18:05:47][DEBUG] 1.47.979.991 I slot print_timing: id  0 | task 39 | prompt eval time =   92828.32 ms / 32770 tokens (    2.83 ms per token,   353.02 tokens per second)"
+    ]
+  }
+]

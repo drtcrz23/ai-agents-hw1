@@ -1,0 +1,48 @@
+{
+  "base_url": "http://127.0.0.1:1234",
+  "models": {
+    "q4": {
+      "key": "qwen/qwen3.5-9b@q4_k_m",
+      "identifier": "hw1-q4",
+      "quant": "Q4_K_M",
+      "sdk_key": "lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q4_K_M.gguf",
+      "expected_bundle_size_bytes": 6548927711
+    },
+    "q8": {
+      "key": "qwen/qwen3.5-9b@q8_0",
+      "identifier": "hw1-q8",
+      "quant": "Q8_0",
+      "sdk_key": "lmstudio-community/Qwen3.5-9B-GGUF/Qwen3.5-9B-Q8_0.gguf",
+      "expected_bundle_size_bytes": 10449384671
+    }
+  },
+  "generation": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": 1,
+    "min_p": 0,
+    "repeat_penalty": 1,
+    "max_output_tokens": 256,
+    "reasoning": "off"
+  },
+  "repeats": 3,
+  "timeout_seconds": 120,
+  "speed_context": 8192,
+  "speed_lengths": [
+    128,
+    1024,
+    4096
+  ],
+  "context_lengths": [
+    1024,
+    2048,
+    4096,
+    8192,
+    16384,
+    32768,
+    65536
+  ],
+  "context_reserve": 512,
+  "memory_sample_seconds": 0.1,
+  "cache_policy": "reload before each measured request; unrelated warmup"
+}

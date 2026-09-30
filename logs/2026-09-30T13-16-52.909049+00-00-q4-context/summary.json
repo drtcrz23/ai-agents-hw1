@@ -1,0 +1,26 @@
+{
+  "run_id": "2026-09-30T13-16-52.909049+00-00-q4-context",
+  "model": "q4",
+  "mode": "context",
+  "status": "stopped",
+  "stop_reason": "RuntimeError: TimeoutError: Request exceeded 120s wall-clock limit",
+  "repeats_required": 3,
+  "groups": [
+    {
+      "target_tokens": 65536,
+      "attempted": 1,
+      "successful": 0,
+      "stable": false,
+      "input_tokens_median": null,
+      "ttft_s_median": null,
+      "tokens_per_second_median": null,
+      "latency_s_median": null,
+      "rss_before_bytes_median": null,
+      "rss_peak_bytes_median": null,
+      "rss_after_bytes_median": null,
+      "output_tokens_median": null,
+      "rss_peak_bytes_max": null
+    }
+  ],
+  "max_stable_target_tokens": null
+}
