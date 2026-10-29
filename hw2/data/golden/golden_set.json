@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "question": "How does Spanner use the TrueTime API to guarantee external consistency for distributed transactions?",
+    "expected_docs": [
+      "spanner"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "TrueTime API returns a time interval with uncertainty",
+      "commit wait waits out the uncertainty",
+      "external consistency via timestamp ordering"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is FoundationDB's unbundled architecture and what consistency guarantees does it provide?",
+    "expected_docs": [
+      "fdb-paper"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "transaction logs, storage servers, proxies as separate roles",
+      "serializable transactions",
+      "fault tolerance validated through simulation testing"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How does Facebook scale memcache, and what purpose do leases serve?",
+    "expected_docs": [
+      "memcache_nsdi13"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "look-aside caching pattern",
+      "leases resolve stale sets and thundering herds",
+      "regional pools and cross-cluster replication"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is TAO and how does it serve Facebook's social graph?",
+    "expected_docs": [
+      "atc13-bronson"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "geographically distributed read-heavy cache for the social graph",
+      "objects and associations",
+      "caching associations avoids cache misses"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How does Dapper instrument and trace distributed systems at Google?",
+    "expected_docs": [
+      "36356"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "trace annotations with span id and trace id",
+      "instrumentation of the RPC framework",
+      "low overhead via sampling"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What microservice architectural patterns are identified in the systematic mapping study by Taibi et al.?",
+    "expected_docs": [
+      "2018-Closer Architectural patterns for m"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "systematic mapping study of microservice patterns",
+      "patterns include database-per-service and API-related patterns"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What does Pivot Tracing provide for monitoring and debugging distributed systems?",
+    "expected_docs": [
+      "2015SOSP_PivotTracing"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "dynamic instrumentation",
+      "composition of operators across requests",
+      "causal monitoring"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How does Canopy support end-to-end performance tracing at Facebook?",
+    "expected_docs": [
+      "Canopy_An_End-to-End_Performance_Tracing"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "end-to-end tracing infrastructure",
+      "packet-level tracing with Scoop",
+      "trace analysis across the stack"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is DeathStarBench and what does it evaluate about microservices on cloud and edge systems?",
+    "expected_docs": [
+      "2019.asplos.microservices"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "open-source benchmark suite of microservice applications",
+      "social network and media services",
+      "hardware-software implications"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How does Seer localize the root cause of performance degradations in cloud microservices?",
+    "expected_docs": [
+      "2019.asplos.seer"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "PCA over low-level metrics",
+      "LIME for interpretable feature selection",
+      "transfers knowledge between applications"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What does Sage do for ML-driven performance debugging in microservices?",
+    "expected_docs": [
+      "2021.asplos.sage"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "detects and localizes performance issues",
+      "container granularity",
+      "practical and scalable ML-driven debugging"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "How does Sinan perform QoS-aware resource management for cloud microservices?",
+    "expected_docs": [
+      "2021.asplos.sinan"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "interference-aware scheduling",
+      "ML-based prediction of QoS",
+      "between-service interference modeling"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What performance and scalability differences between monolithic and microservice architectures were found in the evaluation by Blinowski et al.?",
+    "expected_docs": [
+      "Monolithic_vs_Microservice_Architecture_"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "performance and scalability evaluation",
+      "monolith advantages in some raw metrics",
+      "microservices add communication overhead"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "How does Microscope pinpoint performance issues in microservice environments using causal graphs?",
+    "expected_docs": [
+      "Microscope Pinpoint Performance Issues w"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "causal graph from traces",
+      "critical path analysis",
+      "pinpoints the faulty microservice"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What does the Alibaba trace analysis reveal about microservice dependency and performance characteristics?",
+    "expected_docs": [
+      "SoCC2021"
+    ],
+    "multihop": false,
+    "expected_facts": [
+      "dependency structure from production traces",
+      "cascading performance issues",
+      "cluster-level characterization"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Compare Google's Dapper and Facebook's Canopy: how do the two end-to-end tracing infrastructures differ in design and analysis capabilities?",
+    "expected_docs": [
+      "36356",
+      "Canopy_An_End-to-End_Performance_Tracing"
+    ],
+    "multihop": true,
+    "expected_facts": [
+      "Dapper instruments the RPC framework with annotations",
+      "Canopy uses packet-level tracing with Scoop",
+      "both provide end-to-end causal traces"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Both Spanner and CockroachDB are geo-distributed SQL databases. How do their approaches to consistency and replication compare?",
+    "expected_docs": [
+      "spanner",
+      "3318464.3386134"
+    ],
+    "multihop": true,
+    "expected_facts": [
+      "Spanner uses TrueTime and Paxos groups",
+      "CockroachDB uses hybrid logical clocks and Raft",
+      "both aim for externally consistent or serializable transactions"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Spanner and FoundationDB are both distributed transactional stores. How do their consistency models and architectures differ?",
+    "expected_docs": [
+      "spanner",
+      "fdb-paper"
+    ],
+    "multihop": true,
+    "expected_facts": [
+      "Spanner is globally distributed SQL with TrueTime",
+      "FoundationDB is an unbundled key-value store",
+      "synchronized physical time vs strict transaction ordering"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Facebook uses both TAO and a memcache-based caching layer. What are the different roles of TAO and memcache in serving the social graph?",
+    "expected_docs": [
+      "atc13-bronson",
+      "memcache_nsdi13"
+    ],
+    "multihop": true,
+    "expected_facts": [
+      "TAO caches the social graph as objects and associations",
+      "memcache is a general-purpose look-aside cache",
+      "TAO was introduced to reduce database load for graph reads"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "The Cornell microservices papers Seer, Sage and Sinan each use machine learning for different purposes. How do their goals and techniques differ?",
+    "expected_docs": [
+      "2019.asplos.seer",
+      "2021.asplos.sage",
+      "2021.asplos.sinan"
+    ],
+    "multihop": true,
+    "expected_facts": [
+      "Seer: unsupervised anomaly localization from low-level metrics",
+      "Sage: ML-driven performance debugging",
+      "Sinan: QoS-aware interference-aware resource management"
+    ]
+  }
+]

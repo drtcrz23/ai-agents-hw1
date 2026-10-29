@@ -1,0 +1,86 @@
+{"event": "doc", "file": "2015SOSP_PivotTracing.pdf", "chunks": 125, "chars": 111756}
+{"event": "doc", "file": "2018-Closer Architectural patterns for microservices.pdf", "chunks": 56, "chars": 51383}
+{"event": "doc", "file": "2019.asplos.microservices.pdf", "chunks": 98, "chars": 90012}
+{"event": "doc", "file": "2019.asplos.seer.pdf", "chunks": 96, "chars": 85534}
+{"event": "doc", "file": "2021.asplos.sage.pdf", "chunks": 114, "chars": 103992}
+{"event": "doc", "file": "2021.asplos.sinan.pdf", "chunks": 97, "chars": 86703}
+{"event": "doc", "file": "3318464.3386134.pdf", "chunks": 101, "chars": 91904}
+{"event": "doc", "file": "36356.pdf", "chunks": 72, "chars": 64012}
+{"event": "doc", "file": "Canopy_An_End-to-End_Performance_Tracing_And_Analy.pdf", "chunks": 111, "chars": 96542}
+{"event": "doc", "file": "FromMonolithtoMicroservices-ADataflow-DrivenApproach.pdf", "chunks": 55, "chars": 49010}
+{"event": "doc", "file": "Microscope Pinpoint Performance Issues with Causal Graphs in Micro-s - Lin - 2018 - International Conference on Service-Oriented .pdf", "chunks": 55, "chars": 46010}
+{"event": "doc", "file": "Monolithic_vs_Microservice_Architecture_A_Performa.pdf", "chunks": 91, "chars": 81247}
+{"event": "doc", "file": "SoCC2021.pdf", "chunks": 82, "chars": 73845}
+{"event": "doc", "file": "Stranner Heimo - 2020 - Microservice decomposition a case study of a large...pdf", "chunks": 413, "chars": 351772}
+{"event": "doc", "file": "atc13-bronson.pdf", "chunks": 70, "chars": 65373}
+{"event": "doc", "file": "fdb-paper.pdf", "chunks": 97, "chars": 88202}
+{"event": "doc", "file": "kannan_eurosys19.pdf", "chunks": 95, "chars": 85719}
+{"event": "doc", "file": "memcache_nsdi13.pdf", "chunks": 72, "chars": 65164}
+{"event": "doc", "file": "microservices-yesterday-today.pdf", "chunks": 71, "chars": 60836}
+{"event": "doc", "file": "spanner.pdf", "chunks": 76, "chars": 69190}
+{"event": "total", "docs": 20, "chunks": 2047}
+{"event": "embed_batch", "done": 32}
+{"event": "embed_batch", "done": 64}
+{"event": "embed_batch", "done": 96}
+{"event": "embed_batch", "done": 128}
+{"event": "embed_batch", "done": 160}
+{"event": "embed_batch", "done": 192}
+{"event": "embed_batch", "done": 224}
+{"event": "embed_batch", "done": 256}
+{"event": "embed_batch", "done": 288}
+{"event": "embed_batch", "done": 320}
+{"event": "embed_batch", "done": 352}
+{"event": "embed_batch", "done": 384}
+{"event": "embed_batch", "done": 416}
+{"event": "embed_batch", "done": 448}
+{"event": "embed_batch", "done": 480}
+{"event": "embed_batch", "done": 512}
+{"event": "embed_batch", "done": 544}
+{"event": "embed_batch", "done": 576}
+{"event": "embed_batch", "done": 608}
+{"event": "embed_batch", "done": 640}
+{"event": "embed_batch", "done": 672}
+{"event": "embed_batch", "done": 704}
+{"event": "embed_batch", "done": 736}
+{"event": "embed_batch", "done": 768}
+{"event": "embed_batch", "done": 800}
+{"event": "embed_batch", "done": 832}
+{"event": "embed_batch", "done": 864}
+{"event": "embed_batch", "done": 896}
+{"event": "embed_batch", "done": 928}
+{"event": "embed_batch", "done": 960}
+{"event": "embed_batch", "done": 992}
+{"event": "embed_batch", "done": 1024}
+{"event": "embed_batch", "done": 1056}
+{"event": "embed_batch", "done": 1088}
+{"event": "embed_batch", "done": 1120}
+{"event": "embed_batch", "done": 1152}
+{"event": "embed_batch", "done": 1184}
+{"event": "embed_batch", "done": 1216}
+{"event": "embed_batch", "done": 1248}
+{"event": "embed_batch", "done": 1280}
+{"event": "embed_batch", "done": 1312}
+{"event": "embed_batch", "done": 1344}
+{"event": "embed_batch", "done": 1376}
+{"event": "embed_batch", "done": 1408}
+{"event": "embed_batch", "done": 1440}
+{"event": "embed_batch", "done": 1472}
+{"event": "embed_batch", "done": 1504}
+{"event": "embed_batch", "done": 1536}
+{"event": "embed_batch", "done": 1568}
+{"event": "embed_batch", "done": 1600}
+{"event": "embed_batch", "done": 1632}
+{"event": "embed_batch", "done": 1664}
+{"event": "embed_batch", "done": 1696}
+{"event": "embed_batch", "done": 1728}
+{"event": "embed_batch", "done": 1760}
+{"event": "embed_batch", "done": 1792}
+{"event": "embed_batch", "done": 1824}
+{"event": "embed_batch", "done": 1856}
+{"event": "embed_batch", "done": 1888}
+{"event": "embed_batch", "done": 1920}
+{"event": "embed_batch", "done": 1952}
+{"event": "embed_batch", "done": 1984}
+{"event": "embed_batch", "done": 2016}
+{"event": "embed_batch", "done": 2047}
+{"event": "saved", "dim": [2047, 768]}

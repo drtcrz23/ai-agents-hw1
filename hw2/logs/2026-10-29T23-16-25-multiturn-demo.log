@@ -1,0 +1,13 @@
+{"ts": 13.235837936401367, "event": "chat", "prompt_tokens": 36, "completion_tokens": 496, "finish_reason": "stop"}
+{"event": "turn_done", "question": "What consistency model does Spanner provide and what is TrueTime?", "prompt_tokens": 36, "completion_tokens": 496, "summary_len": 0}
+{"ts": 14.25766396522522, "event": "chat", "prompt_tokens": 537, "completion_tokens": 495, "finish_reason": "stop"}
+{"event": "turn_done", "question": "How does commit wait use TrueTime?", "prompt_tokens": 537, "completion_tokens": 495, "summary_len": 0}
+{"ts": 17.380851984024048, "event": "chat", "prompt_tokens": 1037, "completion_tokens": 570, "finish_reason": "stop"}
+{"event": "turn_done", "question": "What replication protocol does Spanner use?", "prompt_tokens": 1037, "completion_tokens": 570, "summary_len": 0}
+{"ts": 23.106814861297607, "event": "chat", "prompt_tokens": 1616, "completion_tokens": 775, "finish_reason": "stop"}
+{"event": "turn_done", "question": "How does CockroachDB differ from Spanner in replication?", "prompt_tokens": 1616, "completion_tokens": 775, "summary_len": 0}
+{"ts": 10.22671627998352, "event": "chat", "prompt_tokens": 2407, "completion_tokens": 169, "finish_reason": "stop"}
+{"ts": 14.087331771850586, "event": "chat", "prompt_tokens": 203, "completion_tokens": 515, "finish_reason": "stop"}
+{"event": "turn_done", "question": "What does FoundationDB unbundling mean?", "prompt_tokens": 203, "completion_tokens": 515, "summary_len": 961}
+{"ts": 13.28859806060791, "event": "chat", "prompt_tokens": 724, "completion_tokens": 452, "finish_reason": "stop"}
+{"event": "turn_done", "question": "Summarize everything we discussed so far.", "prompt_tokens": 724, "completion_tokens": 452, "summary_len": 961}

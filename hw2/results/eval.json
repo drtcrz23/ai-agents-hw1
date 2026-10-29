@@ -1,0 +1,625 @@
+{
+  "summary": {
+    "n_questions": 20,
+    "recall": {
+      "recall@1": 0.8666666666666666,
+      "recall@1_multihop": 0.4666666666666667,
+      "recall@3": 0.9083333333333334,
+      "recall@3_multihop": 0.6333333333333333,
+      "recall@5": 0.95,
+      "recall@5_multihop": 0.8
+    },
+    "baseline_doc_accuracy": {
+      "mean": 0.9333333333333333,
+      "multihop_mean": 0.7333333333333333,
+      "single_hop_mean": 1.0
+    },
+    "agentic_doc_accuracy": {
+      "mean": 0.9416666666666667,
+      "multihop_mean": 0.7666666666666667,
+      "single_hop_mean": 1.0
+    },
+    "baseline_tokens_per_q": {
+      "prompt": 1443.8,
+      "completion": 256.4,
+      "total": 1700.1999999999998
+    },
+    "agentic_tokens_per_q": {
+      "prompt": 6202.45,
+      "completion": 456.1,
+      "total": 6658.55
+    },
+    "baseline_searches_per_q": 1.0,
+    "agentic_searches_per_q": 2.0
+  },
+  "comparisons": [
+    {
+      "id": 1,
+      "multihop": false,
+      "baseline_docs": [
+        "spanner"
+      ],
+      "agentic_docs": [
+        "spanner"
+      ],
+      "baseline_tokens": [
+        1497,
+        333
+      ],
+      "agentic_tokens": [
+        3910,
+        330
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 2,
+      "multihop": false,
+      "baseline_docs": [
+        "fdb-paper"
+      ],
+      "agentic_docs": [
+        "fdb-paper"
+      ],
+      "baseline_tokens": [
+        1349,
+        216
+      ],
+      "agentic_tokens": [
+        3519,
+        293
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 3,
+      "multihop": false,
+      "baseline_docs": [
+        "memcache_nsdi13"
+      ],
+      "agentic_docs": [
+        "memcache_nsdi13"
+      ],
+      "baseline_tokens": [
+        1378,
+        189
+      ],
+      "agentic_tokens": [
+        3772,
+        313
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 4,
+      "multihop": false,
+      "baseline_docs": [
+        "atc13-bronson"
+      ],
+      "agentic_docs": [
+        "atc13-bronson"
+      ],
+      "baseline_tokens": [
+        1421,
+        251
+      ],
+      "agentic_tokens": [
+        3867,
+        304
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 5,
+      "multihop": false,
+      "baseline_docs": [
+        "36356"
+      ],
+      "agentic_docs": [
+        "36356"
+      ],
+      "baseline_tokens": [
+        1327,
+        282
+      ],
+      "agentic_tokens": [
+        7614,
+        440
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 6,
+      "multihop": false,
+      "baseline_docs": [
+        "2018-Closer Architectural patterns for m"
+      ],
+      "agentic_docs": [
+        "2018-Closer Architectural patterns for m"
+      ],
+      "baseline_tokens": [
+        1391,
+        219
+      ],
+      "agentic_tokens": [
+        7905,
+        570
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 7,
+      "multihop": false,
+      "baseline_docs": [
+        "2015SOSP_PivotTracing"
+      ],
+      "agentic_docs": [
+        "2015SOSP_PivotTracing"
+      ],
+      "baseline_tokens": [
+        1433,
+        228
+      ],
+      "agentic_tokens": [
+        7975,
+        539
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 8,
+      "multihop": false,
+      "baseline_docs": [
+        "Canopy_An_End-to-End_Performance_Tracing"
+      ],
+      "agentic_docs": [
+        "Canopy_An_End-to-End_Performance_Tracing"
+      ],
+      "baseline_tokens": [
+        1440,
+        260
+      ],
+      "agentic_tokens": [
+        8406,
+        429
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 9,
+      "multihop": false,
+      "baseline_docs": [
+        "2019.asplos.microservices"
+      ],
+      "agentic_docs": [
+        "2019.asplos.microservices"
+      ],
+      "baseline_tokens": [
+        1419,
+        325
+      ],
+      "agentic_tokens": [
+        8075,
+        659
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 10,
+      "multihop": false,
+      "baseline_docs": [
+        "2019.asplos.seer"
+      ],
+      "agentic_docs": [
+        "2019.asplos.seer"
+      ],
+      "baseline_tokens": [
+        1411,
+        187
+      ],
+      "agentic_tokens": [
+        8193,
+        471
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 11,
+      "multihop": false,
+      "baseline_docs": [
+        "2021.asplos.sage"
+      ],
+      "agentic_docs": [
+        "2021.asplos.sage"
+      ],
+      "baseline_tokens": [
+        1376,
+        264
+      ],
+      "agentic_tokens": [
+        7792,
+        432
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 12,
+      "multihop": false,
+      "baseline_docs": [
+        "2021.asplos.sinan"
+      ],
+      "agentic_docs": [
+        "2021.asplos.sinan"
+      ],
+      "baseline_tokens": [
+        1307,
+        199
+      ],
+      "agentic_tokens": [
+        7683,
+        526
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 13,
+      "multihop": false,
+      "baseline_docs": [
+        "Monolithic_vs_Microservice_Architecture_"
+      ],
+      "agentic_docs": [
+        "Monolithic_vs_Microservice_Architecture_"
+      ],
+      "baseline_tokens": [
+        1755,
+        216
+      ],
+      "agentic_tokens": [
+        9777,
+        676
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 14,
+      "multihop": false,
+      "baseline_docs": [
+        "Microscope Pinpoint Performance Issues w"
+      ],
+      "agentic_docs": [
+        "Microscope Pinpoint Performance Issues w"
+      ],
+      "baseline_tokens": [
+        1528,
+        271
+      ],
+      "agentic_tokens": [
+        3588,
+        324
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 15,
+      "multihop": false,
+      "baseline_docs": [
+        "SoCC2021"
+      ],
+      "agentic_docs": [
+        "SoCC2021"
+      ],
+      "baseline_tokens": [
+        1555,
+        255
+      ],
+      "agentic_tokens": [
+        8590,
+        594
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 16,
+      "multihop": true,
+      "baseline_docs": [
+        "36356"
+      ],
+      "agentic_docs": [
+        "36356",
+        "Canopy_An_End-to-End_Performance_Tracing"
+      ],
+      "baseline_tokens": [
+        1347,
+        159
+      ],
+      "agentic_tokens": [
+        3593,
+        435
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 0.5,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 17,
+      "multihop": true,
+      "baseline_docs": [
+        "3318464.3386134",
+        "spanner"
+      ],
+      "agentic_docs": [
+        "3318464.3386134",
+        "spanner"
+      ],
+      "baseline_tokens": [
+        1416,
+        346
+      ],
+      "agentic_tokens": [
+        3801,
+        369
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 18,
+      "multihop": true,
+      "baseline_docs": [
+        "fdb-paper"
+      ],
+      "agentic_docs": [
+        "fdb-paper",
+        "spanner"
+      ],
+      "baseline_tokens": [
+        1278,
+        317
+      ],
+      "agentic_tokens": [
+        3613,
+        389
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 0.5,
+      "agentic_score": 1.0
+    },
+    {
+      "id": 19,
+      "multihop": true,
+      "baseline_docs": [
+        "atc13-bronson",
+        "memcache_nsdi13"
+      ],
+      "agentic_docs": [
+        "atc13-bronson"
+      ],
+      "baseline_tokens": [
+        1527,
+        333
+      ],
+      "agentic_tokens": [
+        8453,
+        598
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 1.0,
+      "agentic_score": 0.5
+    },
+    {
+      "id": 20,
+      "multihop": true,
+      "baseline_docs": [
+        "2021.asplos.sage",
+        "2021.asplos.sinan"
+      ],
+      "agentic_docs": [
+        "2021.asplos.sinan"
+      ],
+      "baseline_tokens": [
+        1721,
+        278
+      ],
+      "agentic_tokens": [
+        3923,
+        431
+      ],
+      "baseline_searches": 1,
+      "agentic_searches": 2,
+      "baseline_score": 0.6666666666666666,
+      "agentic_score": 0.3333333333333333
+    }
+  ],
+  "recall_rows": [
+    {
+      "id": 1,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 2,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 3,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 4,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 5,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 6,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 7,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 8,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 9,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 10,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 11,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 12,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 13,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 14,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 15,
+      "multihop": false,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 16,
+      "multihop": true,
+      "recall@1": 0.5,
+      "recall@3": 0.5,
+      "recall@5": 0.5
+    },
+    {
+      "id": 17,
+      "multihop": true,
+      "recall@1": 0.5,
+      "recall@3": 0.5,
+      "recall@5": 1.0
+    },
+    {
+      "id": 18,
+      "multihop": true,
+      "recall@1": 0.5,
+      "recall@3": 0.5,
+      "recall@5": 0.5
+    },
+    {
+      "id": 19,
+      "multihop": true,
+      "recall@1": 0.5,
+      "recall@3": 1.0,
+      "recall@5": 1.0
+    },
+    {
+      "id": 20,
+      "multihop": true,
+      "recall@1": 0.3333333333333333,
+      "recall@3": 0.6666666666666666,
+      "recall@5": 1.0
+    }
+  ]
+}
