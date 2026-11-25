@@ -1,0 +1,6 @@
+{
+  "metric": "avg_moves",
+  "min": 20.0,
+  "max": 24.0,
+  "comment": "Average optimal solution length for random solvable 8-puzzle states is ~22 moves (max 31). Bonus metric: solved_rate must be 1.0."
+}
